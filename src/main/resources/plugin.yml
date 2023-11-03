@@ -2,5 +2,6 @@ name: Chaneels
 version: '${project.version}'
 main: weathercode.chaneels.main.Main
 api-version: '1.16'
+author: WeatherCode
 commands:
   ch:

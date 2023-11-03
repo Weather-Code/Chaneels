@@ -1,6 +1,0 @@
-name: Chaneels
-version: '1.0-SNAPSHOT'
-main: weathercode.chaneels.main.Main
-api-version: '1.16'
-commands:
-  ch:
