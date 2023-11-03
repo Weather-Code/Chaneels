@@ -34,9 +34,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java Projects/Chaneels&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/Java Projects/Chaneels/.idea&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java Projects\Chaneels\.idea" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Chaneels package" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>

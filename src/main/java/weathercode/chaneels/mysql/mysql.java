@@ -36,7 +36,7 @@ public class mysql {
     public static void createTable() {
         PreparedStatement ps = null;
         try {
-            ps = conn.prepareStatement("CREATE TABLE IF NOT EXISTS chaneelsusers(uuid VARCHAR(255) NOT NULL, X VARCHAR(255) NOT NULL, Y VARCHAR(255) NOT NULL, Z VARCHAR(255) NOT NULL, INV VARCHAR(2048) NOT NULL, lastsector VARCHAR(255) NOT NULL, effects VARCHAR(255) NOT NULL, gm VARCHAR(255) NOT NULL, health VARCHAR(255), slot VARCHAR(255), arrmor VARCHAR(1024) NOT NULL, feed VARCHAR(255) NOT NULL, exp VARCHAR(255) NOT NULL, playerdirection VARCHAR(510) NOT NULL, enderchest VARCHAR(2048) NOT NULL, PRIMARY KEY (uuid));");
+            ps = conn.prepareStatement("CREATE TABLE IF NOT EXISTS chaneelsusers(uuid VARCHAR(255) NOT NULL, X VARCHAR(255) NOT NULL, Y VARCHAR(255) NOT NULL, Z VARCHAR(255) NOT NULL, INV VARCHAR(2048) NOT NULL, lastsector VARCHAR(255) NOT NULL, effects VARCHAR(2048) NOT NULL, gm VARCHAR(255) NOT NULL, health VARCHAR(255), slot VARCHAR(255), arrmor VARCHAR(1024) NOT NULL, feed VARCHAR(255) NOT NULL, exp VARCHAR(255) NOT NULL, playerdirection VARCHAR(510) NOT NULL, enderchest VARCHAR(2048) NOT NULL, PRIMARY KEY (uuid));");
             plugins.getLogger().info("&a&l[W-CHANEELS] Wykonano kod createTable()");
             ps.execute();
         } catch (SQLException e) {

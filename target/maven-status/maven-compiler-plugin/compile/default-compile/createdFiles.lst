@@ -1,0 +1,9 @@
+weathercode\chaneels\commands\ch.class
+weathercode\chaneels\events\GuiClick.class
+weathercode\chaneels\Utils\Util.class
+weathercode\chaneels\main\Main.class
+weathercode\chaneels\Utils\EnderChest.class
+weathercode\chaneels\events\JoinQuitEvent.class
+weathercode\chaneels\mysql\mysql.class
+weathercode\chaneels\guis\chgui.class
+weathercode\chaneels\managers\SendServer.class

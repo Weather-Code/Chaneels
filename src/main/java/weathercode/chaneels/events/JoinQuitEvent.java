@@ -36,7 +36,7 @@ public class JoinQuitEvent implements Listener {
                 Util.deserializeEffects(p, mysql.geteffects(p.getUniqueId()));
                 Util.deserializeexp(p, mysql.getexp(p.getUniqueId()));
                 p.getEnderChest().setContents(EnderChest.deserializeEc(mysql.getEnderChest(p.getUniqueId())));
-            }, 10);
+            }, 15);
         } else {
             mysql.adduser(p.getUniqueId(), p.getLocation().getX(), p.getLocation().getY(), p.getLocation().getZ(),Util.serializeInventory(p.getInventory().getContents()), Util.serializeArmor(p.getInventory().getArmorContents()) ,thischaneel, "");
             Bukkit.getScheduler().runTaskLater(Main.getInstance(), () -> {

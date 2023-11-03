@@ -1,0 +1,8 @@
+bazadanych:
+  host: "localhost"
+  user: "root"
+  password: ''
+  base: "test"
+  port: "3306"
+ActualChaneel:
+  ChaneelID: ""
